@@ -1,0 +1,5 @@
+number_1 = input("Введите первое число: ")
+act = input("Введите действие - /,*,+,- : ")
+number_2 = input("Введите второе число: ")
+result = eval(f"{number_1}{act}{number_2}")
+print(result)
